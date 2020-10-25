@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: no-repeat url(https://cdn.wallpapersafari.com/47/17/FW6UEO.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1,
+h2 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* Button */
+
+#button {
+    width: 100px;
+    height: 50px;
+    border: solid 1px black;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#button p {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/* canvas */
+
+#canvas-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#canvas {
+    background-color: rgb(178, 130, 236);
+    border: solid 1px black;
+}
+
+
+/* animation avant de jouer */
+
+#animation-game {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: yellowgreen;
+}

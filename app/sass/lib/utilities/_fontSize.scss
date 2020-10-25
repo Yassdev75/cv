@@ -1,0 +1,40 @@
+h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #95a9d4;
+    font-weight: bold;
+}
+
+.list>h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+}

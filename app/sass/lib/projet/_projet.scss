@@ -1,0 +1,21 @@
+.box-projet {
+    margin: 50px 0 50px 0
+}
+
+.first-project,
+.second-project {
+    img {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .first-project,
+    .second-project {
+        img {
+            width: 160px;
+            height: 160px;
+        }
+    }
+}

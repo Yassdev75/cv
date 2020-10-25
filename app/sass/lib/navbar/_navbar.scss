@@ -1,0 +1,52 @@
+nav {
+    width: 252px;
+    height: 100%;
+    position: fixed;
+    background-color: #282738;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    border: solid #615f74 10px;
+}
+
+nav {
+    div {
+        display: flex;
+        justify-content: center;
+        padding-top: 175px;
+    }
+    ul {
+        padding: 0px;
+        li {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 12px;
+            a {
+                display: block;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: bold;
+                &:hover {
+                    color: rgb(136, 109, 255)
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    nav {
+        display: none;
+    }
+    .main {
+        margin: 0;
+    }
+}
