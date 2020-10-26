@@ -1,12 +1,11 @@
-nav {
-    width: 252px;
-    height: 100%;
-    position: fixed;
-    background-color: #282738;
-    margin: 0;
-    padding: 0;
-}
-
+// nav {
+//     width: 252px;
+//     height: 100%;
+//     position: fixed;
+//     background-color: #282738;
+//     margin: 0;
+//     padding: 0;
+// }
 .profile-image {
     width: 160px;
     height: 160px;
@@ -15,6 +14,12 @@ nav {
 }
 
 nav {
+    width: 252px;
+    height: 100%;
+    position: fixed;
+    background-color: #282738;
+    margin: 0;
+    padding: 0;
     div {
         display: flex;
         justify-content: center;
@@ -36,6 +41,22 @@ nav {
                 font-weight: bold;
                 &:hover {
                     color: rgb(136, 109, 255)
+                }
+            }
+            .call-action {
+                width: 100%;
+                height: 40px;
+                padding: 0;
+                margin: 0;
+                border: solid 1px rgb(34, 0, 185);
+                box-sizing: border-box;
+                color: rgb(136, 109, 255);
+                background-color: white;
+                &:hover {
+                    background-color: rgb(93, 57, 255);
+                    color: white;
+                    transition: ease-in-out 0.3s;
+                    ;
                 }
             }
         }
