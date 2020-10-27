@@ -18,12 +18,12 @@ body {
   margin-left: 272px;
 }
 
-#presentation-container,
-#experience-container,
-#scolarite-container,
-#competences-container,
-#hobbies-container,
-#projet-container {
+#presentation,
+#experience,
+#scolarite,
+#competences,
+#hobbies,
+#projet {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -42,12 +42,12 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  #presentation-container,
-#experience-container,
-#scolarite-container,
-#competences-container,
-#hobbies-container,
-#projet-container {
+  #presentation,
+#experience,
+#scolarite,
+#competences,
+#hobbies,
+#projet {
     min-height: 100vh;
     display: flex;
     justify-content: center;
