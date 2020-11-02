@@ -40,7 +40,7 @@ nav {
                 text-transform: uppercase;
                 font-weight: bold;
                 &:hover {
-                    color: rgb(136, 109, 255)
+                    color: #bca8e9
                 }
             }
             .call-action {
@@ -48,12 +48,12 @@ nav {
                 height: 40px;
                 padding: 0;
                 margin: 0;
-                border: solid 1px rgb(34, 0, 185);
+                border: solid 1px white;
                 box-sizing: border-box;
-                color: rgb(136, 109, 255);
-                background-color: rgb(245, 245, 245);
+                background-color: #95a9d3;
+                color: rgb(245, 245, 245);
                 &:hover {
-                    background-color: rgb(93, 57, 255);
+                    background-color: #9282B6;
                     color: white;
                     transition: ease-in-out 0.3s;
                     ;

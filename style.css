@@ -98,20 +98,20 @@ nav ul li a {
   font-weight: bold;
 }
 nav ul li a:hover {
-  color: #886dff;
+  color: #bca8e9;
 }
 nav ul li .call-action {
   width: 100%;
   height: 40px;
   padding: 0;
   margin: 0;
-  border: solid 1px #2200b9;
+  border: solid 1px white;
   box-sizing: border-box;
-  color: #886dff;
-  background-color: whitesmoke;
+  background-color: #95a9d3;
+  color: whitesmoke;
 }
 nav ul li .call-action:hover {
-  background-color: #5d39ff;
+  background-color: #9282B6;
   color: white;
   transition: ease-in-out 0.3s;
 }
