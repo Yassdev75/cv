@@ -107,11 +107,11 @@ nav ul li .call-action {
   margin: 0;
   border: solid 1px white;
   box-sizing: border-box;
-  background-color: #95a9d3;
+  background-color: #9282B6;
   color: whitesmoke;
 }
 nav ul li .call-action:hover {
-  background-color: #9282B6;
+  background-color: #95a9d3;
   color: white;
   transition: ease-in-out 0.3s;
 }
